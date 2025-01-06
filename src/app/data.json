@@ -1,0 +1,123 @@
+[
+    {
+      "id": 1,
+      "logo": "/logo1.png",
+      "name": "Gold Dollar",
+      "symbol": "GDL",
+      "change": 6.2,
+      "totalSupply": 14424,
+      "currency": "EUR",
+      "isPositive": true
+    },
+    {
+      "id": 2,
+      "logo": "/logo2.png",
+      "name": "Gold Dollar",
+      "symbol": "GDL",
+      "change": -3.8,
+      "totalSupply": 14424,
+      "currency": "EUR",
+      "isPositive": false
+    },
+    {
+      "id": 3,
+      "logo": "/logo3.png",
+      "name": "Gold Dollar",
+      "symbol": "GDL",
+      "change": 6.2,
+      "totalSupply": 14424,
+      "currency": "EUR",
+      "isPositive": true
+    },
+    {
+      "id": 4,
+      "logo": "/logo4.png",
+      "name": "Gold Dollar",
+      "symbol": "GDL",
+      "change": 6.2,
+      "totalSupply": 14424,
+      "currency": "EUR",
+      "isPositive": true
+    },
+    {
+      "id": 5,
+      "logo": "/logo5.png",
+      "name": "Gold Dollar",
+      "symbol": "GDL",
+      "change": 6.2,
+      "totalSupply": 14424,
+      "currency": "EUR",
+      "isPositive": true
+    },
+    {
+      "id": 6,
+      "logo": "/logo6.png",
+      "name": "Gold Dollar",
+      "symbol": "GDL",
+      "change": -3.8,
+      "totalSupply": 14424,
+      "currency": "EUR",
+      "isPositive": false
+    },
+    {
+      "id": 7,
+      "logo": "/logo7.png",
+      "name": "Gold Dollar",
+      "symbol": "GDL",
+      "change": 6.2,
+      "totalSupply": 14424,
+      "currency": "EUR",
+      "isPositive": true
+    },
+    {
+      "id": 8,
+      "logo": "/logo8.png",
+      "name": "Gold Dollar",
+      "symbol": "GDL",
+      "change": -3.8,
+      "totalSupply": 14424,
+      "currency": "EUR",
+      "isPositive": false
+    },
+    {
+      "id": 9,
+      "logo": "/logo9.png",
+      "name": "Gold Dollar",
+      "symbol": "GDL",
+      "change": 6.2,
+      "totalSupply": 14424,
+      "currency": "EUR",
+      "isPositive": true
+    },
+    {
+      "id": 10,
+      "logo": "/logo10.png",
+      "name": "Gold Dollar",
+      "symbol": "GDL",
+      "change": 6.2,
+      "totalSupply": 14424,
+      "currency": "EUR",
+      "isPositive": true
+    },
+    {
+      "id": 11,
+      "logo": "/logo11.png",
+      "name": "Gold Dollar",
+      "symbol": "GDL",
+      "change": 6.2,
+      "totalSupply": 14424,
+      "currency": "EUR",
+      "isPositive": true
+    },
+    {
+      "id": 12,
+      "logo": "/logo12.png",
+      "name": "Gold Dollar",
+      "symbol": "GDL",
+      "change": 6.2,
+      "totalSupply": 14424,
+      "currency": "EUR",
+      "isPositive": true
+    }
+  ]
+  
