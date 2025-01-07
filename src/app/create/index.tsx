@@ -1,5 +1,6 @@
 "use client"
 import Image from 'next/image';
+import { useRouter } from 'next/navigation';
 import React, { useState } from 'react';
 
 const CreateStablecoin = () => {
@@ -24,10 +25,22 @@ const CreateStablecoin = () => {
       initialSupply,
     });
   };
-
+const router = useRouter()
   return (
-    <div className="min-h-screen w-full bg-black text-white flex flex-col justify-center items-center py-10 overflow-x-hidden">
-      <h1 className="text-3xl font-bold mb-8">Create Your Stablecoin</h1>
+    <div className='bg-[#030B15] sm:px-40 py-5 px-5'>
+      <Image
+        src={'/logo.png'}
+        alt='Stable Fun Logo'
+        width={147}
+        height={30}
+        onClick={()=>router.push('/')}
+        className='cursor-pointer sm:w-[147px] sm:h-[30px] w-[130px] h-[20px] object-cover bg-cover flex justify-center items-center'
+        />
+     <div className="min-h-screen w-full text-white flex flex-col justify-center mx-auto py-10 overflow-x-hidden">
+      <div className='w-full justify-between items-center flex sm:px-[7.5rem] py-10'>
+        <h1 className="text-3xl font-bold  w-full">Create Your Stablecoin</h1>
+          <p className='text-[#A3AED0] sm:block hidden' onClick={()=> router.back()}>back</p>
+      </div>
       <form
         onSubmit={handleSubmit}
         className="w-full sm:justify-center gap-32 items-center rounded-[10px] flex sm:flex-row flex-col shadow-lg"
@@ -137,19 +150,20 @@ const CreateStablecoin = () => {
             <Image
               src={'/upload.png'}
               alt='upload'
-              width={460}
-              height={420}
-              className='w-[460px] h-[420px] object-cover bg-cover rounded-[25px]'
+              width={400}
+              height={400}
+              className='w-[300px] h-[300px]'
             />
             <button
               type="submit"
-              className="w-full sm:w-full bg-blue-500 hover:bg-blue-600 text-white py-3 rounded-[10px] border border-white border-opacity-15 font-semibold"
+              className="w-full sm:w-full bg-[#7551FF]  text-white py-3 rounded-[14px] border border-white border-opacity-15 font-semibold"
             >
               Mint Stablecoin
             </button>
           </div>
         </div>
       </form>
+    </div>
     </div>
   );
 };
