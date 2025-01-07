@@ -5,6 +5,7 @@ import Card from './card'
 import data from './data.json'
 import Link from 'next/link'
 import { CiSearch } from 'react-icons/ci'
+import { WalletMultiButton } from '@solana/wallet-adapter-react-ui'
 const StableHomePage = () => {
   const [searchQuery, setSearchQuery] = useState('')
   const filteredData = data.filter(item =>
@@ -33,9 +34,9 @@ const StableHomePage = () => {
             />
                <CiSearch size={24} className='right-2 top-2 transform -translate-y-1/2 sm:mr-32 absolute sm:mt-5' color='white' />
           </div>
-          <button className='bg-[#044581] sm:py-4 text-white sm:px-10 py-4 px-5 leading-none rounded-lg mt-4 sm:mt-0'>
+          <WalletMultiButton className='bg-[#044581] sm:py-4 text-white sm:px-10 py-4 px-5 leading-none rounded-lg mt-4 sm:mt-0'>
             Connect Wallet
-          </button>
+          </WalletMultiButton>
         </header>
         <main className='flex flex-col gap-4 justify-center'>
         <section
