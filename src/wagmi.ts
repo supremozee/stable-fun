@@ -1,10 +1,7 @@
 import "@rainbow-me/rainbowkit/styles.css";
 import { getDefaultConfig } from "@rainbow-me/rainbowkit";
 import { http } from "wagmi";
-import {
-  taiko,
-  taikoHekla,
-} from "wagmi/chains";
+import { taiko, taikoHekla } from "wagmi/chains";
 
 export const config = getDefaultConfig({
   appName: "Stable Fun",
